@@ -61,7 +61,7 @@ header .container {
 }
 
 .logo {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bolder;
     display: flex;
     align-items: center;
@@ -70,8 +70,8 @@ header .container {
 }
 
 .logo img {
-    height: 48px;
-    width: 48px;
+    height: 40px;
+    width: 40px;
 }
 
 header a {
@@ -119,10 +119,10 @@ header ul {
 .signup {
     background-color: var(--button-bg);
     color: var(--main-text);
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
     border-radius: 8px;
-    padding: 12px 48px;
+    padding: 8px 32px;
     border-style: none;
     cursor: pointer;
     margin-top: 16px;
@@ -141,7 +141,6 @@ header ul {
 }
 
 /* second section styling */
-
 #second .container {
     display: flex;
     flex-direction: column;
@@ -154,7 +153,7 @@ header ul {
     align-items: center;
     flex-grow: 2;
     color: var(--info-dark-text);
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 900;
 }
 
@@ -173,19 +172,19 @@ header ul {
     align-items: center;
     max-width: min-content;
     color: var(--quote-text);
-    font-size: 18px;
+    font-size: 1rem;
     text-align: center;
 
 }
 
 .card img {
-    border: 6px solid #3882f6;
+    border: 0.3rem solid #3882f6;
     border-radius: 24px;
-    height: 300px;
-    width: 300px;
+    height: 13vw;
+    width: 13vw;
     object-fit: cover;
     object-position: bottom;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
 }
 
 /** hover transition ONLY APPLIES to elements with class .thumbnail */
@@ -219,7 +218,7 @@ header ul {
 }
 
 #third p {
-    font-size: 48px;
+    font-size: 36px;
     font-style: italic;
     color: var(--quote-text);
     margin-bottom: 16px;
@@ -228,7 +227,7 @@ header ul {
 #third span {
     align-self: flex-end;
     color: var(--info-dark-text);
-    font-size: 32px;
+    font-size: 24px;
     font-weight: bold;
 }
 
@@ -246,13 +245,13 @@ header ul {
     background-color: var(--button-bg);
     border-radius: 1em;
     color: var(--secondary-text);
-    font-size: 24px;
+    font-size: 20px;
     padding: 16px;
 }
 
 .call-title {
     color: var(--main-text);
-    font-size: 32px;
+    font-size: 24px;
     font-weight: bold;
 }
 
