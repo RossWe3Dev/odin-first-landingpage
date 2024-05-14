@@ -172,7 +172,7 @@ header ul {
     align-items: center;
     max-width: min-content;
     color: var(--quote-text);
-    font-size: 1rem;
+    font-size: 0.7rem;
     text-align: center;
     background-color: white;
     padding: 0.5rem;
