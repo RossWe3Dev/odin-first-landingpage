@@ -15,3 +15,5 @@ After the solution of the exercise, when I'll have more skills and tool sets, I 
 - ex-3.jpg = Picture of <a href="https://unsplash.com/it/@monicadionie?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Monika Kabise</a> from <a href="https://unsplash.com/it/foto/una-donna-in-un-reggiseno-sportivo-nero-e-leggings-e-seduta-su-un-ir_l5NT00-U?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
 - ex-4.jpg = Picture of <a href="https://unsplash.com/it/@nigelm23?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nigel Msipa</a> from <a href="https://unsplash.com/it/foto/uomo-in-canotta-blu-sdraiato-sul-campo-di-erba-verde-durante-il-giorno-08R8sOHy-j4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+- logo.svg = <a href="https://www.vecteezy.com/free-vector/icons">Icons Vectors by Vecteezy</a>
