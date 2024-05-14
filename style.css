@@ -20,7 +20,6 @@
 }
 
 /* generics */
-
 html {
     scroll-snap-type: y mandatory;
 }
@@ -138,7 +137,7 @@ header ul {
 .right-column img {
     flex-grow: 1;
     border-radius: 8px;
-    box-shadow: 0 0 24px var(--button-bg);
+    box-shadow: 0 0 8px var(--button-bg);
 }
 
 /* second section styling */
@@ -153,7 +152,7 @@ header ul {
 .info-title {
     display: flex;
     align-items: center;
-    flex-grow: 1;
+    flex-grow: 2;
     color: var(--info-dark-text);
     font-size: 48px;
     font-weight: 900;
@@ -172,7 +171,6 @@ header ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 16px;
     max-width: min-content;
     color: var(--quote-text);
     font-size: 18px;
@@ -187,14 +185,15 @@ header ul {
     width: 300px;
     object-fit: cover;
     object-position: bottom;
+    margin-bottom: 1rem;
 }
 
-/** hover transition for images ONLY APPLIES to images with class .thumbnail */
+/** hover transition ONLY APPLIES to elements with class .thumbnail */
 .thumbnail {
     top: -50px;
     left: -35px;
     display: block;
-    z-index: 2;
+    z-index: 50;
     cursor: pointer;
     transition-property: all;
     transition-duration: 0.3s;
@@ -204,6 +203,7 @@ header ul {
 /** change the number below to scale to the appropriate size*/
 .thumbnail:hover {
     transform: scale(1.25);
+    z-index: 99;
 }
 
 
