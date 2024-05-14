@@ -39,17 +39,17 @@ header .container {
 }
 
 .logo {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 32px;
+    font-weight: bolder;
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 24px;
     cursor: pointer;
 }
 
 .logo img {
-    height: 40px;
-    width: 40px;
+    height: 48px;
+    width: 48px;
 }
 
 header a {
@@ -61,15 +61,59 @@ header a {
 header ul {
     list-style-type: none;
     display: flex;
-    gap: 16px;
+    gap: 24px;
 }
 
 /* first section styling */
 #first {
     display: flex;
     justify-content: center;
-    height: 90vh;
+    height: 60vh;
     background-color: var(--dark-bg);
+}
+
+#first .container {
+    display: flex;
+}
+
+.left-column {
+    color: var(--secondary-text);
+    font-size: 18px;
+    width: 50%;
+    padding-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.main-text {
+    color: var(--main-text);
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+.signup {
+    background-color: var(--button-bg);
+    color: var(--main-text);
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 8px 32px;
+    border-style: none;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.right-column {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.right-column img {
+    flex-grow: 1;
 }
 
 
