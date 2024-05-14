@@ -123,7 +123,7 @@ header ul {
     font-size: 24px;
     font-weight: bold;
     border-radius: 8px;
-    padding: 8px 32px;
+    padding: 12px 48px;
     border-style: none;
     cursor: pointer;
     margin-top: 16px;
@@ -137,6 +137,8 @@ header ul {
 
 .right-column img {
     flex-grow: 1;
+    border-radius: 8px;
+    box-shadow: 0 0 24px var(--button-bg);
 }
 
 /* second section styling */
@@ -160,11 +162,21 @@ header ul {
 .card-container {
     flex-grow: 1;
     display: flex;
-    align-items: start;
-    gap: 48px;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    max-width: min-content;
     color: var(--quote-text);
     font-size: 18px;
     text-align: center;
+
 }
 
 .card img {
