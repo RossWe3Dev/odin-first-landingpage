@@ -162,9 +162,10 @@ header ul {
 .card-container {
     flex-grow: 1;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 80vw;
 }
 
 .card {
@@ -246,6 +247,7 @@ header ul {
     border-radius: 1em;
     color: var(--secondary-text);
     font-size: 24px;
+    padding: 16px;
 }
 
 .call-title {
