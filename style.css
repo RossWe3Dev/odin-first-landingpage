@@ -30,10 +30,14 @@ body {
 }
 
 #first,
-#second,
+#second {
+    height: 65vh;
+    scroll-snap-align: center;
+}
+
 #third,
 #fourth {
-    height: 70vh;
+    height: 50vh;
     scroll-snap-align: center;
 }
 
@@ -55,7 +59,6 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 2vh;
 }
 
 .logo {
@@ -63,7 +66,7 @@ header .container {
     font-weight: bolder;
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: 16px;
     cursor: pointer;
 }
 
@@ -81,7 +84,7 @@ header a {
 header ul {
     list-style-type: none;
     display: flex;
-    gap: 24px;
+    gap: 32px;
 }
 
 /* first section styling */
@@ -113,6 +116,7 @@ header ul {
     margin-bottom: 8px;
 }
 
+/** this class is going to be used on all sign up buttons */
 .signup {
     background-color: var(--button-bg);
     color: var(--main-text);
@@ -186,7 +190,7 @@ header ul {
 
 /** change the number below to scale to the appropriate size*/
 .thumbnail:hover {
-    transform: scale(1.5);
+    transform: scale(1.25);
 }
 
 
@@ -216,7 +220,31 @@ header ul {
 }
 
 /* fourth section styling */
+#fourth {
+    display: flex;
+}
 
+#fourth .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-self: center;
+    height: 45%;
+    background-color: var(--button-bg);
+    border-radius: 1em;
+    color: var(--secondary-text);
+    font-size: 24px;
+}
+
+.call-title {
+    color: var(--main-text);
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.special {
+    border: 3px solid var(--main-text);
+}
 
 /* footer styling */
 footer {
