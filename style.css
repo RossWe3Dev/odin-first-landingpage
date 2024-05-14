@@ -20,7 +20,7 @@
 }
 
 .container {
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -28,12 +28,14 @@
 header {
     background-color: var(--dark-bg);
     color: var(--main-text);
+    height: 10vh;
 }
 
 header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 2vh;
 }
 
 .logo {
@@ -66,4 +68,17 @@ header ul {
 #first {
     display: flex;
     justify-content: center;
+    height: 90vh;
+    background-color: var(--dark-bg);
+}
+
+
+/* footer styling */
+footer {
+    background-color: var(--dark-bg);
+    height: 10vh;
+    text-align: center;
+    line-height: 10vh;
+    color: var(--secondary-text);
+    font-size: 18px;
 }
