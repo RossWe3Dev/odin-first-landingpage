@@ -136,6 +136,7 @@ header ul {
 }
 
 /* second section styling */
+
 #second .container {
     display: flex;
     flex-direction: column;
@@ -153,21 +154,65 @@ header ul {
 }
 
 .card-container {
-    flex-grow: 3;
+    flex-grow: 1;
     display: flex;
+    align-items: start;
     gap: 48px;
+    color: var(--quote-text);
+    font-size: 18px;
+    text-align: center;
 }
 
 .card img {
-    border: 3px solid #3882f6;
-    border-radius: 16px;
+    border: 6px solid #3882f6;
+    border-radius: 24px;
     height: 300px;
     width: 300px;
+    object-fit: cover;
+    object-position: bottom;
 }
+
+/** hover transition for images ONLY APPLIES to images with class .thumbnail */
+.thumbnail {
+    top: -50px;
+    left: -35px;
+    display: block;
+    z-index: 2;
+    cursor: pointer;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease;
+}
+
+/** change the number below to scale to the appropriate size*/
+.thumbnail:hover {
+    transform: scale(1.5);
+}
+
 
 /* third section styling */
 #third {
     background-color: var(--quote-bg);
+}
+
+#third .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#third p {
+    font-size: 48px;
+    font-style: italic;
+    color: var(--quote-text);
+    margin-bottom: 16px;
+}
+
+#third span {
+    align-self: flex-end;
+    color: var(--info-dark-text);
+    font-size: 32px;
+    font-weight: bold;
 }
 
 /* fourth section styling */
