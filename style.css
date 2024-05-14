@@ -19,13 +19,33 @@
     --quote-text: #1f2937;
 }
 
+/* generics */
+
+html {
+    scroll-snap-type: y mandatory;
+}
+
+body {
+    height: 100%;
+}
+
+#first,
+#second,
+#third,
+#fourth {
+    height: 70vh;
+    scroll-snap-align: center;
+}
+
 .container {
     width: 70%;
+    height: 100%;
     margin: 0 auto;
 }
 
 /* header styling */
 header {
+    scroll-snap-align: start;
     background-color: var(--dark-bg);
     color: var(--main-text);
     height: 10vh;
@@ -68,7 +88,6 @@ header ul {
 #first {
     display: flex;
     justify-content: center;
-    height: 60vh;
     background-color: var(--dark-bg);
 }
 
@@ -115,6 +134,43 @@ header ul {
 .right-column img {
     flex-grow: 1;
 }
+
+/* second section styling */
+#second .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-title {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    color: var(--info-dark-text);
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.card-container {
+    flex-grow: 3;
+    display: flex;
+    gap: 48px;
+}
+
+.card img {
+    border: 3px solid #3882f6;
+    border-radius: 16px;
+    height: 300px;
+    width: 300px;
+}
+
+/* third section styling */
+#third {
+    background-color: var(--quote-bg);
+}
+
+/* fourth section styling */
 
 
 /* footer styling */
