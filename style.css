@@ -174,7 +174,9 @@ header ul {
     color: var(--quote-text);
     font-size: 1rem;
     text-align: center;
-
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 8px;
 }
 
 .card img {
@@ -253,6 +255,10 @@ header ul {
     color: var(--main-text);
     font-size: 24px;
     font-weight: bold;
+}
+
+.left-call {
+    flex-shrink: 0;
 }
 
 .special {
