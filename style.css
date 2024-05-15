@@ -11,6 +11,8 @@
     --main-text: #f9faf8;
     --secondary-text: #e5e7eb;
 
+    --highlight-text: gold;
+
     --button-bg: #3882f6;
 
     --info-dark-text: #1f2937;
@@ -26,6 +28,10 @@ html {
 
 body {
     height: 100%;
+}
+
+.highlight {
+    color: var(--highlight-text);
 }
 
 #first,
@@ -83,6 +89,7 @@ header a {
 header ul {
     list-style-type: none;
     display: flex;
+    align-items: center;
     gap: 32px;
 }
 
@@ -126,6 +133,11 @@ header ul {
     border-style: none;
     cursor: pointer;
     margin-top: 16px;
+}
+
+.signup:hover {
+    background-color: var(--main-text);
+    color: var(--button-bg);
 }
 
 .right-column {
@@ -247,11 +259,12 @@ header ul {
     justify-content: space-around;
     align-self: center;
     height: 45%;
+    gap: 24px;
     background-color: var(--button-bg);
     border-radius: 1em;
     color: var(--secondary-text);
     font-size: 20px;
-    padding: 16px;
+    padding: 24px;
 }
 
 .call-title {
