@@ -1,10 +1,8 @@
-This is my attempt on building my first landing page after following The Odin Project's foundations curriculum.
+# Lifesthenics Landing Page - an exercise inspired website
 
-I will attempt to customize it and design a fitness/calisthenics website.
+This landing page is my first attempt at building a fitness/calisthenics website, inspired by The Odin Project's foundations curriculum (https://www.theodinproject.com/). It's a springboard for a potential future full website, and I plan to revisit and improve it as I gain more skills and tools.
 
-After the solution of the exercise, when I'll have more skills and tool sets, I might come back to it to make improvements.
-
-# Picture Credits
+##  Credits
 
 - hero.jpg = Picture of <a href="https://unsplash.com/it/@lith?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Eduardo Madrid</a> from <a href="https://unsplash.com/it/foto/uomo-in-pantaloncini-neri-in-piedi-sullerba-marrone-durante-il-giorno-j6amjHxtc1U?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
   
@@ -17,3 +15,8 @@ After the solution of the exercise, when I'll have more skills and tool sets, I 
 - ex-4.jpg = Picture of <a href="https://unsplash.com/it/@nigelm23?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nigel Msipa</a> from <a href="https://unsplash.com/it/foto/uomo-in-canotta-blu-sdraiato-sul-campo-di-erba-verde-durante-il-giorno-08R8sOHy-j4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
 - logo.svg = <a href="https://www.vecteezy.com/free-vector/icons">Icons Vectors by Vecteezy</a>
+
+##  License
+
+This website is licensed under the GNU General Public License v3.0. 
+Full license text available here: https://www.gnu.org/licenses/gpl-3.0.en.html
