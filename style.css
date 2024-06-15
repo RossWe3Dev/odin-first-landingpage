@@ -93,6 +93,17 @@ header ul {
     gap: 32px;
 }
 
+header li {
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    transition: scale 300ms, text-decoration-color 200ms;
+}
+
+header li:hover {
+    scale: 110%;
+    text-decoration-color: var(--main-text);
+}
+
 /* first section styling */
 #first {
     display: flex;
